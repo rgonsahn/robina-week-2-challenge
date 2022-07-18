@@ -1,7 +1,7 @@
 /* Universal Selector */
 * {
-  margin:0;
-  padding:0;  
+  margin: 0;
+  padding: 0px;
 }
 
 /* Element Selectors */
@@ -9,112 +9,58 @@ body {
   position: relative;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 20px;
-  background-color: #FDF8F5;
+  background-color: antiquewhite;
   color: #4F4846;
 }
 
 h1,
 h2 {
   margin: 5px;
-  background-color: aqua; 
-  border-radius: 20px; 
-  border-style: double;
+  background-color: white;
+  column-width: auto;
 
 }
 
-main {
-  padding: 60px 0;
+.text-left {
+  display: inline;
+  background-color: cornflowerblue;
+  font-size: xx-large;
 }
 
 li {
-  display: inline;
-  padding: 0px 20px;
-  text-decoration:black;
-
-  
+  float: right;
 }
 
-a {
-  text-decoration: none;
-  color: #FDF8F5;
-}
-
-header,
-footer {
-  height: 60px;
-  width: 100%;
-  line-height: 60px;
-  background-color:darkgray
-}
-
-header {
-  position: fixed;
-  border-bottom:blue;5px
-}
-
-footer {
-  position: absolute;
-  margin-top: 0;
-  bottom: 0;
-  border-bottom: 10px solid #4F4846;
-  color: #FDF8F5;    
-}
-
-figure {
-  margin-bottom: 40px;
-}
-
-img {
+li a {
   display: block;
-  margin: 20px auto; 
- 
+  padding: 8px;
+  overflow: hidden;
+  background-color: cadetblue;
+  color: black;
 }
 
-section {
-  margin-bottom: 0;
-  padding: 20px 10px 40px 10px;
-  border-top: 3px solid #DDAF94;
-  background-color:  #E8CEBF;
+.Me-too {
+  width: 400px;
+  height: 500px;
+  border-style: dashed;
+
 }
 
-form {
-  /* Center the form on the page */
-  margin: 0 auto;
-  width: 500px;
-  padding: 10px;
-  border: 5px solid #DDAF94;
-  border-radius: 20px;
+.Believe {
+  width: 600;
+  height: auto;
 }
 
-label {
-  display: inline-block;
-  width: 100px;
+.column {
+  float: left;
+  width: 25%;
 }
+
+.row {
   
-input, 
-textarea {
-  box-sizing: border-box;
-  width: 300px;
-  border: 1px solid #4F4846;
+  display: table;
+  clear: both;
 }
-
-textarea {
-  vertical-align: top;
-  height: 60px;
-}
-  
-button {
-  height: 40px;
-  width: 120px;
-  background-color: #4F4846;
-  color: #FDF8F5;
-}
- 
-/* Class Selectors */
-.text-center {
-  text-align: center;
-}
-
-.text-right {
-  text-align: right;
+.text-center{
+  background-color: aqua;
 }
