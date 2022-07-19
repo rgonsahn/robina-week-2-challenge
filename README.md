@@ -10,6 +10,6 @@
 
  # Set Up 
  Run the code in the bowser by following the url link below
-[ website link]
+[ website link](https://rgonsahn.github.io/robina-week-2-challenge/)
 The user should be able to view the image below 
 ![My Portfolio Page](assets/images/assets/images/Myscreenshot.png "Picture of my portfolio page")
