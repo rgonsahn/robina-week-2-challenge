@@ -12,4 +12,4 @@
  Run the code in the bowser by following the url link below
 [ website link]
 The user should be able to view the image below 
-![My portfolio](assets/images/Screen Shot 2022-07-19 at 1.15.54 AM.png)
+![My Portfolio Page](assets/images/assets/images/Myscreenshot.png "Picture of my portfolio page")
